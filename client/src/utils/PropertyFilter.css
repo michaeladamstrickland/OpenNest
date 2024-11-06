@@ -1,0 +1,20 @@
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #ff6347;
+    box-shadow: 0 0 5px rgba(255, 99, 71, 0.5);
+  }
+  

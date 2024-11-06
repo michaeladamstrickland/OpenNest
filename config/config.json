@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Poker247$$",
+    "database": "open_nest_real_estate",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "Poker247$$",
+    "database": "open_nest_real_estate_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "Poker247$$",
+    "database": "open_nest_real_estate_prod",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
