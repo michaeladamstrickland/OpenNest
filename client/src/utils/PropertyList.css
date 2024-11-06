@@ -1,0 +1,65 @@
+.propertylist-center {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .property-card {
+    position: relative;
+    transition: all 0.3s linear;
+  }
+  
+  .property-card:hover {
+    transform: scale(1.05);
+  }
+
+  img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .img-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .img-container img {
+    width: 100%;
+    display: block;
+    transition: all 0.3s linear;
+  }
+  
+  .price-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  
+  .btn-primary {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5rem 1rem;
+    background: #ff6347;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background: #ff4500;
+  }
+  
+  .room-info {
+    text-align: center;
+    padding: 1rem 0;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  

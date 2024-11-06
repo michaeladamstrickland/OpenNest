@@ -1,0 +1,47 @@
+.property {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s linear;
+  }
+  
+  .property:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .img-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .img-container img {
+    width: 100%;
+    display: block;
+  }
+  
+  .price-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--primaryColor);
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .get-code-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #ffc107;
+    padding: 0.4rem 0.8rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .property-info {
+    padding: 1rem;
+    text-align: center;
+  }
